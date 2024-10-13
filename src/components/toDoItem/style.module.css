@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 10px;
+  align-items: baseline;
+  background: rgba(255, 234, 0, 0.799);
+  width: 50vw;
+  justify-content: space-around;
+}
+
+.itemChecked {
+    background-color: green;
+    
+  }
+
+
+
+.item__checkbox {
+  
+
+  transform: scale(1.5);
+}
